@@ -113,10 +113,8 @@ Use GET `/api/v1/templates` to list all currently loaded templates.
 Prereqs: Go installed (1.18+)
 
 ```bash
-# 1) clone and change into repo
-mkdir notification-service
-cd notification_service
-# copy the code here
+# 1) clone repo
+git clone https://github.com/Sanjeet19/notification_service.git
 
 # 2) install dependencies
 go mod tidy
